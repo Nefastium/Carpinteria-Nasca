@@ -1,4 +1,4 @@
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Phone, MapPin } from "lucide-react";
 import { useState } from "react";
 
 export function Contact() {
@@ -44,20 +44,10 @@ export function Contact() {
                 </div>
                 <div>
                   <h4 className="text-gray-900 mb-1">Numero de Teléfono</h4>
+                  <p className="text-gray-600">WhatsApp / Llamada</p>
                   <p className="text-gray-600">(+54) 011 3842-7614</p>
                   <p className="text-gray-600">Lunes - Sabado: 8am - 12am</p>
                   <p className="text-gray-600">Lunes - Viernes: 2pm - 5pm</p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-amber-100 rounded-full flex items-center justify-center flex-shrink-0">
-                  <Mail className="text-amber-700" size={24} />
-                </div>
-                <div>
-                  <h4 className="text-gray-900 mb-1">Email</h4>
-                  <p className="text-gray-600">info@carpinteer.com</p>
-                  <p className="text-gray-600">Respondemos dentro de 24 horas</p>
                 </div>
               </div>
 

@@ -28,7 +28,7 @@ export function Header() {
                 Servicios
             </button>
             <button onClick={() => scrollToSection("portfolio")} className="text-gray-700 hover:text-amber-700 transition-colors">
-              Portfolio
+              Portafolio
             </button>
             <button onClick={() => scrollToSection("about")} className="text-gray-700 hover:text-amber-700 transition-colors">
               Acerca de

@@ -55,7 +55,6 @@ export function Footer() {
             <h4 className="text-white mb-4">Contacto</h4>
             <ul className="space-y-2">
               <li>(+54) 011 3842-7614</li>
-              <li>info@carpinteer.com</li>
               <li>Calle 127 N°840</li>
               <li>Berazategui B1884, Bs As</li>
             </ul>
