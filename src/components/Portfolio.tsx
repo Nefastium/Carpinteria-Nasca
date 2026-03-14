@@ -50,7 +50,7 @@ export function Portfolio() {
               key={index}
               className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow"
             >
-              <div className="aspect-[4/4] overflow-hidden">
+              <div className="aspect-[3/4] overflow-hidden">
                 <ImageWithFallback
                   src={project.image}
                   alt={project.title}
