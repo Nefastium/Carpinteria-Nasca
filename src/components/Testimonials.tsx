@@ -2,23 +2,17 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Sarah Johnson",
-    role: "Ama de Casa",
-    content: "Los gabinetes de cocina personalizados que construyeron para nosotros son absolutamente impresionantes. La atención al detalle y el arte de la artesanía es incomparable. ¡Altamente recomendado!",
+    name: "Guillermo Moreira",
+    role: "Google Review",
+    content: "Si tuviese 10 estrellas, se lo pondría. Adrían, y su flia son carpinteros de los que no hay. Verdaderos artesanos apasionados por su trabajo. Atentos, diligentes, rápidos y en precio.",
     rating: 5,
   },
   {
-    name: "Michael Chen",
-    role: "Arquitecto de Propiedades",
-    content: "Hemos trabajado con Carpinteria Nasca en varios proyectos de renovación. Su profesionalismo, calidad del trabajo y capacidad para cumplir con plazos hacen que sean nuestro equipo de carpintería de elección.",
+    name: "Nicolas Guido Di Nucci",
+    role: "Google Review",
+    content: "Excelentes profesionales en su oficio, tanto padre como hijos unos capo Flia. NASCA! Hicimos todos los muebles de casa y negocio a medida, no le pongo 10 estrellas porque solo me deja 5 la app.!",
     rating: 5,
-  },
-  {
-    name: "Emily Rodriguez",
-    role: "Diseñadora de Interiores",
-    content: "Regularmente recomiendo Carpinteria Nasca a mis clientes. Ellos dan vida a los diseños con artesanía excepcional y siempre entregan más de lo esperado.",
-    rating: 5,
-  },
+  }
 ];
 
 export function Testimonials() {
@@ -32,7 +26,7 @@ export function Testimonials() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
