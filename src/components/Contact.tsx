@@ -1,4 +1,5 @@
 import { Phone, MapPin } from "lucide-react";
+import { FaWhatsapp } from 'react-icons/fa';
 import { useState } from "react";
 
 export function Contact() {
@@ -10,12 +11,19 @@ export function Contact() {
   });
 
   const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission
-    console.log("Form submitted:", formData);
-    alert("Thank you for your message! We'll get back to you soon.");
-    setFormData({ name: "", email: "", phone: "", message: "" });
+  e.preventDefault();
+
+  const message = `Hola! soy ${formData.name}. Quiero hacer una consulta.
+
+  ${formData.message}`;
+
+    const phoneNumber = "541138427614";
+
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+
+    window.open(url, "_blank");
   };
+
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
@@ -82,35 +90,6 @@ export function Contact() {
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-gray-700 mb-2">
-                  Email *
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  required
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-700"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="phone" className="block text-gray-700 mb-2">
-                  Numero de Teléfono
-                </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-amber-700"
-                />
-              </div>
-
-              <div>
                 <label htmlFor="message" className="block text-gray-700 mb-2">
                   Mensaje *
                 </label>
@@ -127,10 +106,14 @@ export function Contact() {
 
               <button
                 type="submit"
-                className="w-full bg-amber-700 text-white px-8 py-4 rounded-md hover:bg-amber-800 transition-colors"
+                className="w-full bg-amber-700 text-white px-8 py-4 rounded-md hover:bg-amber-800 transition-colors flex items-center justify-center gap-2"
               >
-                Enviar Mensaje
+                Enviar consulta por WhatsApp
+                <FaWhatsapp className="text-white" size={24} />
               </button>
+              <div className="text-sm text-gray-600 mt-2">
+                Respondemos rapidamente a través de WhatsApp, así que no dudes en contactarnos para cualquier consulta o cotización. Estamos aquí para ayudarte a hacer realidad tu proyecto de carpintería.
+              </div>
             </form>
           </div>
         </div>
