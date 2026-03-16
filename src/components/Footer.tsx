@@ -8,7 +8,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-2">
-            <img src="https://github.com/Nefastium/Carpinteria-Nasca/blob/main/images/nasca-logo.png?raw=true" alt="Carpinteria Nasca" className="h-10 w-10 mr-3 invert" />
+            <img src="https://bbwyaqxtumwceuecxqzy.supabase.co/storage/v1/object/sign/CarpinteriaNasca/nasca-logo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85ZjgwYWMwZS03Mzg2LTQ1MTYtOTBjYS00M2FjNjRjZjhlM2YiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJDYXJwaW50ZXJpYU5hc2NhL25hc2NhLWxvZ28ucG5nIiwiaWF0IjoxNzczNjk2MDkyLCJleHAiOjE4MDUyMzIwOTJ9.bFKbZ5aSX-7SbnybrR4cd6w1qqOl7pjcNmd8fSD8LeU" alt="Carpinteria Nasca" className="h-10 w-10 mr-3 invert" />
             <h3 className="text-2xl text-amber-500 mb-4">Carpinteria Nasca</h3>
             <p className="text-gray-400 mb-4">
               Servicios Profesionales de Carpintería para proyectos residenciales y comerciales. 

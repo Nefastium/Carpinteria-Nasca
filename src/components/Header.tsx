@@ -15,7 +15,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
-            <img src="https://github.com/Nefastium/Carpinteria-Nasca/blob/main/images/nasca-logo.png?raw=true" alt="Carpinteria Nasca" className="h-10 w-10 mr-3" />
+            <img src="https://bbwyaqxtumwceuecxqzy.supabase.co/storage/v1/object/sign/CarpinteriaNasca/nasca-logo.png?token=eyJraWQiOiJzdG9yYWdlLXVybC1zaWduaW5nLWtleV85ZjgwYWMwZS03Mzg2LTQ1MTYtOTBjYS00M2FjNjRjZjhlM2YiLCJhbGciOiJIUzI1NiJ9.eyJ1cmwiOiJDYXJwaW50ZXJpYU5hc2NhL25hc2NhLWxvZ28ucG5nIiwiaWF0IjoxNzczNjk2MDkyLCJleHAiOjE4MDUyMzIwOTJ9.bFKbZ5aSX-7SbnybrR4cd6w1qqOl7pjcNmd8fSD8LeU" alt="Carpinteria Nasca" className="h-10 w-10 mr-3" />
             <span className="text-2xl text-amber-700">Carpinteria Nasca</span>
           </div>
 

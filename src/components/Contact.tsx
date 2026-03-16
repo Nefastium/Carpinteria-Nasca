@@ -13,7 +13,7 @@ export function Contact() {
   const handleSubmit = (e: React.FormEvent) => {
   e.preventDefault();
 
-  const message = `Hola! soy ${formData.name}. Quiero hacer una consulta.
+  const message = `Hola! soy ${formData.name}. Quiero hacer una consulta por Carpinteria Nasca.
 
   ${formData.message}`;
 
