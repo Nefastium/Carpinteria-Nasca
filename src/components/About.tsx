@@ -18,7 +18,7 @@ export function About() {
               Con mas de 50 años de experiencia en carpintería fina y trabajos de madera, Carpinteria Nasca se ha convertido en un nombre confiable en muebles personalizados y proyectos de renovación del hogar.
             </p>
             <p className="text-lg text-gray-600 mb-6">
-              Nuestros equipos combina técnicas tradicionales de trabajos de madera con innovación moderna para ofrecer resultados excepcionales que resisten la prueba del tiempo.
+              Nuestros equipos combinan técnicas tradicionales de trabajos de madera con innovación moderna para ofrecer resultados excepcionales que resisten la prueba del tiempo.
             </p>
             <p className="text-lg text-gray-600 mb-8">
               Tenemos orgullo en cada proyecto, tratando su hogar con la misma dedicación y atención al detalle que tendríamos en el nuestro. Desde la consulta inicial hasta la instalación final, nos comprometemos a superar sus expectativas.
